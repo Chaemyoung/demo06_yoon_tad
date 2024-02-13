@@ -1,1 +1,58 @@
+* {
+    font-family: "Protest Strike", sans-serif; /*change the font name for what you have*/
+}
 
+.bg-info {
+    background-color: #2b4700 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #b6baaf; /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #f2fbf2; /* Lightest shade for text on info button for contrast */
+    background-color: #72b372; /* Light green for button background */
+    border-color: #005a00; /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #b6baaf; /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #004d00; /* Dark green for primary button background */
+    border-color: #2b4700; /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #006666; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand{
+    font-family: "Protest Strike", sans-serif; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+/* Style for radio button labels when not selected */
+.btn-outline-primary {
+    color: #006666; /* Dark green text color for contrast */
+    border-color: #006666; /* Light green border color */
+}
+
+/* Style for radio button labels on hover or focus */
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+    color: #f2fbf2; /* Lightest color for text */
+    background-color: #72b372; /* Light green background */
+    border-color: #005a00; /* Dark green border for emphasis */
+}
+
+/* Style for the active (checked) radio button label */
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary {
+    color: #f2fbf2; /* Lightest color for text */
+    background-color: #005a00; /* Dark green background for primary action */
+    border-color: #b75858; /* Reddish-brown border to use as accent */
+}
+
+.meterial-icons {
+    font-size: 36px;
+}
